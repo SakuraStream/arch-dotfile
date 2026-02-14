@@ -1,0 +1,15 @@
+# 排除所有文件
+/*
+
+!.gitignore
+!README.md
+# zsh配置和.config
+!.zshrc
+!.config
+!init.sh
+
+# config里的部分应用
+/.config/*
+!.config/niri
+!.config/starship.toml
+!.config/kitty
